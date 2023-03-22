@@ -115,13 +115,6 @@ ul li a:hover{
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(57, 147, 113);
 }
-#down{
-  display: flex;
-  flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   margin-top: 30px;
-}
 input:focus, textarea:focus{
   outline: none;
 }
@@ -251,4 +244,46 @@ input:hover, textarea:hover{
 .card:hover .source-icons{
   opacity:1;
   scale:1;
+}
+#footer{
+border-radius: 50px;
+padding:5px;
+display: inline-block;
+background-color: rgb(32, 30, 30);
+align-items: center;
+justify-content: center;
+gap:10px;
+margin-top: 30px;
+position:fixed;
+bottom:0;
+right:40%;
+
+}
+.bxs-home-heart{
+  font-size: 2rem;
+  color:rgb(45, 201, 149);
+}
+.bxs-home-heart:hover{
+color:rgb(58, 255, 255);
+}
+.bx-child{
+  font-size: 2rem;
+  color:rgb(45, 201, 149);
+}
+.bx-child:hover{
+color:rgb(58, 255, 255);
+}
+.bxs-briefcase{
+  font-size: 2rem;
+  color:rgb(45, 201, 149);
+}
+.bxs-briefcase:hover{
+color:rgb(58, 255, 255);
+}
+.bxs-envelope{
+  font-size: 2rem;
+  color:rgb(45, 201, 149);
+}
+.bxs-envelope:hover{
+color:rgb(58, 255, 255);
 }
