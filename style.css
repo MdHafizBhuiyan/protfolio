@@ -46,10 +46,10 @@ ul li a:hover{
   color: rgb(51, 228, 169);
 }
 #hero{
-  margin-top: 30px;
+  margin: 50px;
   display: flex;
-   align-items: center;
-   justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .pic{
   width: 300px;
@@ -90,12 +90,12 @@ ul li a:hover{
   margin-bottom: 15px;
 }
 #contact{
-  margin-top: 30px;
+  margin: 50px;
   display: flex;
   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   line-height: 25px;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 25px;
 }
 .forms{
   margin-top: 30px;
@@ -128,7 +128,7 @@ input:hover, textarea:hover{
   padding:10px;
 }
 #skills{
-  margin:90px;
+  margin: 50px;
 }
 #skills h1{
   text-align: center;
@@ -189,7 +189,9 @@ input:hover, textarea:hover{
   height:10px;
   background-color: rgb(51, 228, 169);
 }
-
+#protfolio{
+  margin: 50px;
+}
 #protfolio h1, #protfolio p{
   text-align: center;
 }
@@ -253,10 +255,10 @@ background-color: rgb(32, 30, 30);
 align-items: center;
 justify-content: center;
 gap:10px;
-margin-top: 30px;
+margin: 1px;
 position:fixed;
 bottom:0;
-right:40%;
+right:38%;
 
 }
 .bxs-home-heart{
