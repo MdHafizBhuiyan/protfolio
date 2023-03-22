@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  transition: all .7s ease;
+}
+.container{
+  background-color: rgb(21, 20, 20);
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-weight:bold;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.text-color{
+  color:rgb(51, 228, 169);
+}
+.logo{
+  font-size:small;
+  border: 3px solid rgb(51, 228, 169);
+  border-radius: 50%;
+  padding:5px;
+}
+.logo, a, input, button, textarea, img{
+  cursor:pointer;
+}
+.top{
+  margin-top: 25px;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li a:hover{
+  color: rgb(51, 228, 169);
+}
+#hero{
+  margin-top: 30px;
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.pic{
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px rgb(51, 228, 169);
+}
+.pic:hover{
+  width: 400px;
+  box-shadow: 5px 5px rgb(216, 219, 218);
+}
+.resume{
+  border: 2px solid rgb(51, 228, 169);
+  padding: 10px 25px;
+  margin:15px 0px;
+  width:55%;
+  font-weight: 600;
+  background-color: rgb(57, 147, 113);
+  color: white;
+  border-radius: 5px;
+}
+.resume:hover{
+  background-color: rgb(41, 75, 138);
+}
+.bxs-download{
+  border:2px solid rgb(41, 75, 138);
+  border-radius: 50%;
+  padding: 5px;
+}
+.bxs-download:hover{
+  border:2px solid rgb(14, 206, 123);
+}
+.style{
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+.hero-text{
+  margin-bottom: 15px;
+}
+#contact{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   line-height: 25px;
+}
+.forms{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  width:50%;
+}
+.btn{
+  margin-top: 5px;
+  border: 2px solid rgb(113, 137, 137);
+  width:100px;
+  font-weight: 600;
+  background-color: rgb(57, 147, 113);
+  color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(57, 147, 113);
+}
+#down{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+input:focus, textarea:focus{
+  outline: none;
+}
+input:hover, textarea:hover{
+  padding:5px;
+}
+::placeholder{
+  padding:5px;
+}
+::placeholder:hover{
+  padding:10px;
+}
+#skills{
+  margin:90px;
+}
+#skills h1{
+  text-align: center;
+  margin: 50px;
+}
+.skill-coloumns{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:70px;
+}
+.skill-percent{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.outer-bar{
+  width:100%;
+  height:10px;
+  background-color: rgb(105, 105, 105);
+}
+.inner-bar1{
+  width:90%;
+  height:10px;
+  background-color: rgb(51, 228, 169);
+}
+.inner-bar2{
+  width:90%;
+  height:10px;
+  background-color: rgb(51, 228, 169);
+}
+.inner-bar3{
+  width:80%;
+  height:10px;
+  background-color: rgb(51, 228, 169);
+}
+.inner-bar4{
+  width:85%;
+  height:10px;
+  background-color: rgb(51, 228, 169);
+}
+.inner-bar5{
+  width:70%;
+  height:10px;
+  background-color: rgb(51, 228, 169);
+}
+.inner-bar6{
+  width:80%;
+  height:10px;
+  background-color: rgb(51, 228, 169);
+}
+.inner-bar7{
+  width:90%;
+  height:10px;
+  background-color: rgb(51, 228, 169);
+}
+.inner-bar8{
+  width:90%;
+  height:10px;
+  background-color: rgb(51, 228, 169);
+}
+
+#protfolio h1, #protfolio p{
+  text-align: center;
+}
+.card{
+  width:100%;
+  border-radius: 30px;
+  position: relative;
+}
+.card-image img{
+  width:100%;
+  height:200px;
+  border-radius:30px;
+  opacity:0.8;
+}
+.project-item{
+  margin:20px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:20px;
+}
+.source-icons{
+  width:100%;
+  height:200px;
+  border-radius:30px;
+  background-color: rgb(51, 228, 169);
+  align-items: center;
+  display: flex;
+  justify-content:space-around; 
+  position: absolute;
+  top:0;
+  left:0;
+  opacity:0;
+}
+.source-icons .bx{
+  font-size:2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.source-icons .bx:hover{
+  background-color: rgb(20, 160, 114);
+  scale:1.5;
+}
+.source-icons .bxl-github{
+  color:rgb(14, 14, 14);
+}
+.source-icons .bxl-netlify{
+  color:rgb(38, 231, 231);
+}
+.source-icons .bxl-youtube{
+  color:rgb(238, 5, 5);
+}
+.card:hover .source-icons{
+  opacity:1;
+  scale:1;
+}
