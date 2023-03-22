@@ -246,7 +246,7 @@ input:hover, textarea:hover{
   border-radius: 50%;
 }
 .source-icons .bx:hover{
-  background-color: rgb(20, 160, 114);
+  background-color: rgb(255, 255, 255);
   scale:1.5;
 }
 .source-icons .bxl-github{
