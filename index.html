@@ -123,6 +123,8 @@
     <section id="protfolio">
       <h1 class="hero-textz">My <span class="text-color">Protfolio</span></h1>
       <p>Here are my some project & you can check my work strength.</p>
+      <br />
+
       <div>
         <div class="project-item">
           <div class="card">
@@ -266,13 +268,24 @@
       </p>
     </section>
 
-    <form class="forms" action="">
-      <input type="text" placeholder="Your First Name" />
-      <input type="text" placeholder="Your Last Name" />
-      <input type="email" placeholder="Your Email Address" />
-      <textarea placeholder="Send Hello......"></textarea>
+    <form class="forms" action="https://formspree.io/f/mvonbqoa" method="POST">
+      <input type="text" placeholder="Your First Name" name="Name" required />
+      <input type="text" placeholder="Your Last Name" name="Name" required />
+      <input
+        type="email"
+        placeholder="Your Email Address"
+        name="Email"
+        required
+      />
+      <textarea
+        type="message"
+        placeholder="Send Hello......"
+        name="Message"
+        required
+      ></textarea>
+      <button class="btn" type="submit">Let's Talk</button>
     </form>
-    <button class="btn">Let's Talk</button>
+
     <footer id="footer">
       <div class="down">
         <a href="#hero"><i class="bx bxs-home-heart"></i></a>
