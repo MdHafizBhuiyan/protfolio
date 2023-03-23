@@ -27,12 +27,7 @@ a{
 .text-color{
   color:rgb(51, 228, 169);
 }
-.logo{
-  font-size:small;
-  border: 3px solid rgb(51, 228, 169);
-  border-radius: 50%;
-  padding:5px;
-}
+
 .logo, a, input, button, textarea, img{
   cursor:pointer;
 }
