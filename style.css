@@ -371,8 +371,12 @@ color:rgb(45, 201, 149);
       gap:8px;
       width:100%;
     }
-    .btn{
-      
+    .footer2{
+      margin:10px;
+      padding:10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   
