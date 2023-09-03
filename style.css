@@ -274,7 +274,6 @@ margin: 1px;
 position:fixed;
 bottom:0;
 right:38%;
-
 }
 .bxs-home-heart{
   font-size: 2rem;
@@ -358,6 +357,25 @@ color:rgb(45, 201, 149);
       align-items: center;
       justify-content: space-between;
     }
+    .forms{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap:8px;
+      width:100%;
+    }
+    .btn{
+      margin-top: 5px;
+      margin-left: 290px;
+      width:100px;
+      font-weight: 700;
+      background-color: rgb(51, 228, 169);
+      color: rgb(0, 0, 0);
+      padding: 10px 10px;
+      border:none;
+      border-radius: 5px;
+      box-shadow:5px 5px 5px rgb(51, 228, 169);
+    }
   
   }
   
@@ -396,6 +414,7 @@ color:rgb(45, 201, 149);
     box-shadow: 5px 5px rgb(216, 219, 218);
     opacity:0.8;
   }
+
 }
 @media only screen and (min-width: 768px) {
   .container{
