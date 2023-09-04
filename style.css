@@ -315,7 +315,7 @@ color:rgb(45, 201, 149);
   .container{
     background-color: rgb(21, 20, 20);
     color: white;
-    width: 100%;
+    width: 80%;
     margin: auto;
   }
   .navbar, ul, li, a{
@@ -336,11 +336,19 @@ color:rgb(45, 201, 149);
       grid-template-columns: repeat(1, 1fr);
       grid-gap:20px;
     }
+    .card{
+      width:100%;
+      height:auto;
+    }
+    .card-image{
+      width:100%;
+      height:auto;
+    }
     .resume{
       border: 2px solid rgb(51, 228, 169);
       padding: 10px 25px;
       margin:15px 0px;
-      width:55%;
+      width:75%;
       font-weight: 600;
       background-color: rgb(57, 147, 113);
       color: white;
@@ -462,6 +470,14 @@ color:rgb(45, 201, 149);
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap:20px;
+  }
+  .card{
+    width:100%;
+    height:auto;
+  }
+  .card-image{
+    width:100%;
+    height:auto;
   }
   .resume{
     border: 2px solid rgb(51, 228, 169);
