@@ -388,76 +388,6 @@ color:rgb(45, 201, 149);
     }
   }
 
-@media only screen and (max-width: 600px) {
-  .container{
-    background-color: rgb(21, 20, 20);
-    color: white;
-    width: 80%;
-    margin: auto;
-  }
-  .navbar, ul, li, a{
-      list-style-type: none;
-      margin: 5px;
-      padding: 0px;
-      justify-content: space-between;
-      display: inline-block;
-    }
-    .skill-coloumns{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      gap:70px;
-    }
-    .project-item{
-      margin:20px;
-      display:grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap:20px;
-    }
-    .resume{
-      border: 2px solid rgb(51, 228, 169);
-      padding: 10px 25px;
-      margin:15px 0px;
-      width:55%;
-      font-weight: 600;
-      background-color: rgb(57, 147, 113);
-      color: white;
-      border-radius: 5px;
-    }
-    .pic{
-      width: 200px;
-      border-radius: 50%;
-      box-shadow: 5px 5px rgb(51, 228, 169);
-      opacity:0.7;
-    }
-    .pic:hover{
-      width: 250px;
-      box-shadow: 5px 5px rgb(216, 219, 218);
-      opacity:0.8;
-    }
-    #hero{
-      margin: 50px;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      align-items: center;
-      justify-content: space-between;
-    }
-    .forms{
-      margin-top: 30px;
-      display: flex;
-      flex-direction: column;
-      gap:8px;
-      width:100%;
-    }
-    .footer2{
-      margin:10px;
-      padding:10px;
-      display: flex;
-      align-items:flex-end;
-      justify-content:flex-end;
-    }
-  }
-  
-
 @media only screen and (min-width: 600px) {
   .container{
     background-color: rgb(21, 20, 20);
@@ -470,14 +400,6 @@ color:rgb(45, 201, 149);
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap:20px;
-  }
-  .card{
-    width:100%;
-    height:auto;
-  }
-  .card-image{
-    width:100%;
-    height:auto;
   }
   .resume{
     border: 2px solid rgb(51, 228, 169);
