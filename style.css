@@ -315,7 +315,7 @@ color:rgb(45, 201, 149);
   .container{
     background-color: rgb(21, 20, 20);
     color: white;
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   .navbar, ul, li, a{
