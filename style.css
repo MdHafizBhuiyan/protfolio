@@ -252,8 +252,9 @@ input:hover, textarea:hover{
 .source-icons .bxl-github{
   color:rgb(14, 14, 14);
 }
-.source-icons .bxl-netlify{
+.source-icons .bx-link-external{
   color:rgb(38, 231, 231);
+  padding: 5px;
 }
 .source-icons .bxl-youtube{
   color:rgb(238, 5, 5);
